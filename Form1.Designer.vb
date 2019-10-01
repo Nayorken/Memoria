@@ -253,7 +253,7 @@ Partial Class Form1
         Me.Controls.Add(Me.P1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Text = "game"
         CType(Me.P12, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.P11, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.P10, System.ComponentModel.ISupportInitialize).EndInit()
