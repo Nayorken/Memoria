@@ -36,8 +36,8 @@ Partial Class Form1
         Me.P2 = New System.Windows.Forms.PictureBox()
         Me.P1 = New System.Windows.Forms.PictureBox()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         CType(Me.P12, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.P11, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -196,17 +196,6 @@ Partial Class Form1
         Me.Panel1.Size = New System.Drawing.Size(660, 41)
         Me.Panel1.TabIndex = 12
         '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.75!, System.Drawing.FontStyle.Bold)
-        Me.Label1.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.Label1.Location = New System.Drawing.Point(603, 4)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(35, 32)
-        Me.Label1.TabIndex = 13
-        Me.Label1.Text = "X"
-        '
         'Label2
         '
         Me.Label2.AutoSize = True
@@ -217,6 +206,17 @@ Partial Class Form1
         Me.Label2.Size = New System.Drawing.Size(236, 30)
         Me.Label2.TabIndex = 14
         Me.Label2.Text = "Jogo Da Memória "
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.75!, System.Drawing.FontStyle.Bold)
+        Me.Label1.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.Label1.Location = New System.Drawing.Point(603, 4)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(35, 32)
+        Me.Label1.TabIndex = 13
+        Me.Label1.Text = "X"
         '
         'Button1
         '
