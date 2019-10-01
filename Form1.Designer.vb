@@ -224,7 +224,7 @@ Partial Class Form1
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold)
         Me.Button1.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Button1.Location = New System.Drawing.Point(236, 494)
+        Me.Button1.Location = New System.Drawing.Point(244, 489)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(150, 29)
         Me.Button1.TabIndex = 13
